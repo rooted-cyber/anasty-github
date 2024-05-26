@@ -1,0 +1,26 @@
+{
+    "name": "Telegram",
+    "description": "You know what it does...",
+    "logo": "",
+    "keywords": [
+        "Telethon",
+        "telegram",
+        "python"
+    ],
+    "repository": "https://github.com/",
+    "success_url": "https://t.me/Telegram",
+    "stack": "container",
+    "env": {
+        "BOT_NAME": {
+            "description": "Name of your bot",
+            "value": "mirror-bot",
+            "required": false
+        }
+    },
+    "formation": {
+        "rootedcyber": {
+            "quantity": 1,
+            "size": "performance-l"
+        }
+    }
+}

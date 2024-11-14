@@ -5,6 +5,7 @@ RUN python3 -m venv mltbenv
 RUN cd ap && python3 -m venv mltbenv
 RUN git clone https://github.com/anasty17/mirror-leech-telegram-bot ap
 COPY . .
+RUN cd ap && python3 -m venv mltbenv
 RUN cp con* tok* ap
 RUN cp tu /bin && chmod 777 /bin/tu
 RUN cd ap && mltbenv/bi/pip3 install --break-system-packages --no-cache-dir -r requirements.txt

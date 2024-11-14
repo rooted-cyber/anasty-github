@@ -2,7 +2,6 @@ FROM anasty17/mltb:latest
 #RUN apt update && apt upgrade -y
 #RUN apt install wget -y
 RUN python3 -m venv mltbenv
-RUN cd ap && python3 -m venv mltbenv
 RUN git clone https://github.com/anasty17/mirror-leech-telegram-bot ap
 COPY . .
 RUN cd ap && python3 -m venv mltbenv

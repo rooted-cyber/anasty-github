@@ -8,6 +8,6 @@ RUN cd ap && python3 -m venv mltbenv
 RUN cp con* tok* ap
 RUN cp tu /bin && chmod 777 /bin/tu
 RUN cd ap && mltbenv/bin/pip3 install --no-cache-dir -r requirements.txt
-RUN mltbenv/bin/pip3 install  yt-dlp==2023.10.13 speedtest-cli
+RUN cd ap && mltbenv/bin/pip3 install  yt-dlp==2023.10.13 speedtest-cli
 RUN printf "\n Bot start\n\n"
 RUN cd ap && bash start.sh

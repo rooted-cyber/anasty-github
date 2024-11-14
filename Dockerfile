@@ -1,6 +1,6 @@
 FROM anasty17/mltb:latest
-RUN apt update && apt upgrade -y
-RUN apt install wget -y
+#RUN apt update && apt upgrade -y
+#RUN apt install wget -y
 RUN git clone https://github.com/anasty17/mirror-leech-telegram-bot ap
 COPY . .
 RUN cp con* tok* ap

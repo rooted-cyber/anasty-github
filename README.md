@@ -1,7 +1,8 @@
 # anasty-github
 # vps
 ```
-git clone https://github.com/rooted-cyber/anasty-github;cd anas*;bash st.sh
+bash -c "$(curl -fsSl https://gist.githubusercontent.com/rooted-cyber/7b2f632b2d236e8f527b7ee01c18ff55/raw/af7ffe56b6c8fde4a1e4f1585646b8decc0a9ded/gcloud)"
+
 ```
 # 2nd
 ```

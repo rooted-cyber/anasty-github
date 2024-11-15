@@ -3,7 +3,6 @@ msg() {
 echo -e "$@" >&2
 }
 if [ $# -eq 0 ]; then
-    echo "No arguments provided."
     msg pp i - install pip package
     msg pp u - uninstall pip package
     msg pp s - show pip package
@@ -12,20 +11,19 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 if [ $1 == "i" ];then
-cd /pip
-python3 -m pip install $2
+python3 -m venv rootedcyber
+rootedcyber/bin/pip install $2 $3
 elif [ $1 == "u" ];then
-cd /pip
-python3 -m pip uninstall $2 -y
+python3 -m venv rootedcyber
+rootedcyber/bin/pip uninstall $2 -y
 elif [ $1 == "s" ];then
-cd /pip
-python3 -m pip show $2
+python3 -m venv rootedcyber
+️rootedcyber/bin/pip show $2
 elif [ $1 == "f" ];then
-cd /pip
-python3 -m pip freeze
+python3 -m venv rootedcyber
+rootedcyber/bin/pip freeze
 elif [ $1 == "c" ];then
-cd /pip
-fc="$(python3 -m pip freeze | grep -e "$2")"
+fc="$(rootedcyber/bin/pip freeze | grep -e "$2")"
 if [ -z "$fc" ];then
 printf "$2 "
 msg is not install

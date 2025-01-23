@@ -27,12 +27,12 @@ IS_TEAM_DRIVE = False
 STOP_DUPLICATE = False
 INDEX_URL = "https://mbot.rootedcyber.workers.dev/0:"
 # Rclone
-RCLONE_PATH = ""
-RCLONE_FLAGS = ""
-RCLONE_SERVE_URL = ""
+#RCLONE_PATH = ""
+#RCLONE_FLAGS = ""
+#RCLONE_SERVE_URL = ""
 RCLONE_SERVE_PORT = 0
-RCLONE_SERVE_USER = ""
-RCLONE_SERVE_PASS = ""
+#RCLONE_SERVE_USER = ""
+#R##CLONE_SERVE_PASS = ""
 # JDownloader
 JD_EMAIL = "rootedcyber@gmail.com"
 JD_PASS = "Mahhujalam123###"
@@ -67,12 +67,12 @@ EQUAL_SPLITS = False
 MEDIA_GROUP = True
 USER_TRANSMISSION = False
 MIXED_LEECH = False
-LEECH_FILENAME_PREFIX = ""
+#LEECH_FILENAME_PREFIX = ""
 LEECH_DUMP_CHAT = "-1002233071834"
-THUMBNAIL_LAYOUT = ""
+#THUMBNAIL_LAYOUT = ""
 # qBittorrent/Aria2c
 TORRENT_TIMEOUT = 0
-BASE_URL = ""
+#BASE_URL = ""
 BASE_URL_PORT = 0
 WEB_PINCODE = False
 # Queueing system
@@ -81,9 +81,9 @@ QUEUE_DOWNLOAD = 0
 QUEUE_UPLOAD = 0
 # RSS
 RSS_DELAY = 600
-RSS_CHAT = ""
+#RSS_CHAT = ""
 # Torrent Search
-SEARCH_API_LINK = ""
+#SEARCH_API_LINK = ""
 SEARCH_LIMIT = 0
 SEARCH_PLUGINS = [
     "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/piratebay.py",

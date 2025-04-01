@@ -85,6 +85,9 @@ RSS_DELAY = 600
 # Torrent Search
 #SEARCH_API_LINK = ""
 SEARCH_LIMIT = 0
+FFMPEG_CMDS = {}
+UPLOAD_PATHS = {}
+TG_PROXY = {}
 SEARCH_PLUGINS = [
     "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/piratebay.py",
     "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/limetorrents.py",

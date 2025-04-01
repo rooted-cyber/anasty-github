@@ -58,8 +58,8 @@ USENET_SERVERS = [
     }
 ]
 
-UPSTREAM_REPO = "https://github.com/my-fork-repo/mirror-leech-telegram-bot"
-UPSTREAM_BRANCH = "master"
+UPSTREAM_REPO = ""
+UPSTREAM_BRANCH = ""
 # Leech
 LEECH_SPLIT_SIZE = 0
 AS_DOCUMENT = False

@@ -23,7 +23,7 @@ NAME_SUBSTITUTE = ""
 FFMPEG_CMDS = {}
 UPLOAD_PATHS = {}
 # GDrive Tools
-GDRIVE_ID = "1P2tR0vm3htIH69X0cOxDBvxIgCRDKPDR"
+GDRIVE_ID = ""
 IS_TEAM_DRIVE = False
 STOP_DUPLICATE = False
 INDEX_URL = "https://mbot.rootedcyber.workers.dev/0:"

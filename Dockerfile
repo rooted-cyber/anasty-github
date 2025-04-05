@@ -7,6 +7,7 @@ COPY . .
 RUN dpkg -i *pip*
 RUN cd m*t*t && python3 -m venv mltbenv
 RUN cp con* tok* m*t*t
+RUN mkdir -p /mirror-leech-telegram-bot/bot/core/mltbenv/lib
 RUN cd m*t*t && mltbenv/bin/pip3 install --no-cache-dir -r requirements.txt
 RUN cd m*t*t && mltbenv/bin/pip3 install --no-cache-dir -r requirements-cli.txt
 RUN cd m*t*t && mltbenv/bin/pip3 install  yt-dlp==2023.10.13 speedtest-cli config
